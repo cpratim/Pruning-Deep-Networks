@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 data/
+deep_learning/
+models/
 
 # Distribution / packaging
 .Python

@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, graphicx, natbib}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{float}
+
+\geometry{margin=1in}
+\begin{document}
+
+\title{Selective Neural Network Pruning under Domain Shifts: A Multi-Stage Activation-Based Approach}
+\author{Pratim Chowdhary \\
+Undergraduate Thesis \\
+Dartmouth College}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+Domain shifts pose a significant challenge in deep learning, particularly for classification tasks where only a subset of the originally 
+learned classes remains relevant. This research proposes a novel pruning methodology that selectively removes unimportant neurons 
+or filters in a neural network once the task domain transitions. By employing L1, L2, and Random Forest–based techniques on hidden-layer 
+activations and model outputs—using strategically sampled random inputs—the approach identifies neurons that best explain the 
+variance in the reduced class subset. Subsequent hidden layers are similarly pruned by leveraging the L2 norms of their forward 
+activations as “target” variables. This multi-stage procedure aims to streamline the network’s capacity to match the domain’s new 
+requirements, thereby reducing model size and enhancing inference efficiency with minimal accuracy loss. Preliminary experiments 
+suggest that this method offers a principled framework for adapting neural networks under domain shifts while maintaining classification quality.
+
+
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+
+
+\section{Background}
+
+\section{Methodology}
+
+
+\end{document}
