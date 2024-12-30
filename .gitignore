@@ -8,6 +8,7 @@ __pycache__/
 data/
 deep_learning/
 models/
+.DS_Store
 
 # Distribution / packaging
 .Python
